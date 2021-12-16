@@ -5,6 +5,7 @@ const navSlide = () => {
 
   pop.addEventListener("click",() => {
     nav.classList.toggle("nav-active");
+    pop.classList.toggle("toggle");
   });
 
 

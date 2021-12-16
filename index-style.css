@@ -37,8 +37,11 @@ nav {
     right: 0;
     top: 0;
     width: 100%;
-    height: 100vh;   
+    height: 101vh;   
     background-color: #DDE5E7;
+    background-image: url(menu-bcg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     transform: translateX(100%);
@@ -69,6 +72,7 @@ nav {
     height: 3px;
     background-color: white;
     margin: 5px;
+    transition: 0.5s;
 }
   
 .pop {
@@ -95,6 +99,7 @@ h2 {
     text-align: center;
     padding-top: 150px;
     letter-spacing: 10px;
+    text-transform: uppercase;
     
 }
 
@@ -107,6 +112,7 @@ h3 {
     text-align: center;
     letter-spacing: 14px;
     padding-bottom: 70px;
+    text-transform: uppercase;
 }
 
 .circle {
@@ -140,6 +146,74 @@ h3 {
     display: block;
 }
 
+/* about me section */
+h4 {
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 72px;
+}
+
+.aboutme {
+    font-family: breakers, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+    padding: 0 2em;
+}
+
+.am3 {
+    margin-bottom: 60px;
+}
+
+.character1 {
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 58px;
+    color: rgba(255, 255, 255, 0.425);
+    letter-spacing: 5px;
+    padding-top: 0;
+    margin-top: -10px;
+}
+
+.character2 {
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    font-size: 58px;
+    color: rgba(255, 255, 255, 0.425);
+    letter-spacing: 5px;
+    padding-top: 0;
+    margin-top: -10px;
+}
+
+.character2:last-child {
+    padding-bottom: 80px;
+}
+
 .nav-active{
     transform: translateX(0%);
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px,6px);
+    transition: 0.5s;
+}
+  
+.toggle .line2 {
+    opacity: 0;
+}
+  
+.toggle .line3 {
+    transform: rotate(45deg) translate(-6px,-7px);
+    transition: 0.5s;
 }
