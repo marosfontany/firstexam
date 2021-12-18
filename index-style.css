@@ -6,6 +6,7 @@
 
 body {
     background-color: #D5674D;
+    
 }
 
 /* header section */
@@ -110,7 +111,7 @@ h3 {
     font-size: 70px;
     color: white;
     text-align: center;
-    letter-spacing: 14px;
+    letter-spacing: 11px;
     padding-bottom: 70px;
     text-transform: uppercase;
 }
@@ -200,6 +201,70 @@ h4 {
     padding-bottom: 80px;
 }
 
+/* my skills section */
+.skills {
+    background-color: #DDE5E7;
+    padding-bottom: 50px;
+}
+
+.skills-title {
+    padding-top: 40px;
+    color: #FFC973;
+}
+
+.program {
+    background-color: white;
+    width: 172px;
+    height: 172px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.program2 {
+    height: 381px;
+}
+
+.program:last-child {
+    margin-bottom: 50px;
+}
+
+.photoshop {
+    width: 74px;
+    margin-top: 25px;
+}
+
+.question {
+    width: 50px;
+}
+
+.css {
+    margin-top: 60px;
+}
+
+h5 {
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #68727E;
+    padding-top: 20px;
+}
+
+.skills-text {
+    font-family: breakers, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #68727E;
+    margin-top: 30px;
+    padding: 0 2em;
+}
+
+
 .nav-active{
     transform: translateX(0%);
 }
@@ -207,13 +272,16 @@ h4 {
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px,6px);
     transition: 0.5s;
+    background-color: #68727E;
 }
   
 .toggle .line2 {
     opacity: 0;
+    background-color: #68727E;
 }
   
 .toggle .line3 {
     transform: rotate(45deg) translate(-6px,-7px);
     transition: 0.5s;
+    background-color: #68727E;
 }
