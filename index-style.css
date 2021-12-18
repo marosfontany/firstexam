@@ -9,6 +9,11 @@ body {
     
 }
 
+html {
+    scroll-behavior: smooth;
+    --webkit-scroll-behavior: smooth;
+}
+
 /* header section */
 
 header {
@@ -265,6 +270,17 @@ h5 {
 }
 
 /* my work section */
+.work-description {
+    font-family: breakers, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 2em;
+}
+
 .p1 {
     margin-bottom: 40px;
 }
@@ -274,6 +290,7 @@ h5 {
     width: 276px;
     height: 380px;
     margin-left: 3em;
+    margin-bottom: 40px;
 }
 
 .p1-logo {
@@ -284,38 +301,129 @@ h5 {
     padding-top: 45%;
 }
 
+.p2 {
+    padding-top: 70%;
+}
+
 .p2-photo {
     background-color: #DDE5E7;
     width: 272px;
     height: 470px;
+    margin-bottom: 40px;
 }
 
 .p3 {
     background-color: #FFC973;
     margin-left: 3em;
+    margin-bottom: 40px;
+}
+
+.p4 {
+    width: 80px;
 }
 
 .p4-photo {
     background-color: #DDE5E7;
     width: 273px;
     height: 358px;
-    margin-left: 6.5em;
+    margin-left: 6.4em;
+    margin-bottom: 40px;
 }
 
 .p5-logo {
-    width: 80px;
+    width: 60px;
     margin-right: auto;
     margin-left: auto;
     display: block;
-    padding-top: 7%;
+    padding-top: 10%;
 }
 
 .p5-photo {
     background-color: #FFC973;
     width: 354px;
     height: 132px;
+    margin-bottom: 130px;
 }
 
+/* contact section */
+.contact {
+    background-color: #DDE5E7;
+    background-image: url(footer-bcg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contact-title {
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: left;
+    color: #68727E;
+
+}
+
+.contact-description {
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    text-transform: lowercase;
+    padding-left: 20px;
+}
+
+.contact-description a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow2 {
+    transform: rotate(180deg);
+    padding-bottom: 60px;
+}
+
+.backup {
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.backup a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-logo {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.socials {
+    font-family: ivypresto-display, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #68727E;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.linkedin {
+    text-align: center;
+}
+
+.github {
+    text-align: right;
+}
+
+.contact-grid {
+    display: grid;
+    grid-auto-flow: row;
+}
 
 .nav-active{
     transform: translateX(0%);
