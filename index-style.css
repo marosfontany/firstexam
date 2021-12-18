@@ -264,6 +264,58 @@ h5 {
     padding: 0 2em;
 }
 
+/* my work section */
+.p1 {
+    margin-bottom: 40px;
+}
+
+.p1-photo {
+    background-color: #FFC973;
+    width: 276px;
+    height: 380px;
+    margin-left: 3em;
+}
+
+.p1-logo {
+    width: 111px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 45%;
+}
+
+.p2-photo {
+    background-color: #DDE5E7;
+    width: 272px;
+    height: 470px;
+}
+
+.p3 {
+    background-color: #FFC973;
+    margin-left: 3em;
+}
+
+.p4-photo {
+    background-color: #DDE5E7;
+    width: 273px;
+    height: 358px;
+    margin-left: 6.5em;
+}
+
+.p5-logo {
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 7%;
+}
+
+.p5-photo {
+    background-color: #FFC973;
+    width: 354px;
+    height: 132px;
+}
+
 
 .nav-active{
     transform: translateX(0%);
