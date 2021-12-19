@@ -42,7 +42,7 @@ nav {
     position: absolute;
     right: 0;
     top: 0;
-    width: 100%;
+    width: 82%;
     height: 101vh;   
     background-color: #DDE5E7;
     background-image: url(menu-bcg.png);
@@ -207,7 +207,7 @@ h4 {
 }
 
 /* my skills section */
-.skills {
+#skills {
     background-color: #DDE5E7;
     padding-bottom: 50px;
 }
@@ -346,7 +346,7 @@ h5 {
 }
 
 /* contact section */
-.contact {
+#contact {
     background-color: #DDE5E7;
     background-image: url(footer-bcg.png);
     background-repeat: no-repeat;
@@ -430,7 +430,7 @@ h5 {
         padding-right: 380px;
     }
 
-    .contact {
+    #contact {
         background-image: url(footer-bcg2.png);
     }
 }
@@ -528,6 +528,7 @@ h5 {
 @media(min-width: 1440px) {
     .mainmenu {
         background-image: url(menu-bcg-desktop.png);
+        background-size: contain;
     }
 
     .name {
@@ -722,7 +723,7 @@ h5 {
         padding-left: 40px;
     }
 
-    .contact {
+    #contact {
         background-image: url(footer-bcg3.png);
     }
 
