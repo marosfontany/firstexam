@@ -425,6 +425,330 @@ h5 {
     grid-auto-flow: row;
 }
 
+@media(min-width: 425px) {
+    .contact-title {
+        padding-right: 380px;
+    }
+
+    .contact {
+        background-image: url(footer-bcg2.png);
+    }
+}
+
+@media(min-width: 470px) {
+    .character1 {
+        text-align: right;
+    }
+}
+
+@media(min-width: 768px) {
+    .about-grid {
+        display: grid;
+        grid-auto-flow: column;
+
+    }
+
+    .one {
+        grid-area: one;
+    }
+
+    .two {
+        grid-area: two;
+    }
+
+    .three {
+        grid-area: three;
+        width: 400px;
+    }
+
+    .four {
+        grid-area: four;
+        width: 400px;
+    }
+
+    .five {
+        grid-area: five;
+    }
+
+    .six {
+        grid-area: six;
+    }
+
+    .seven {
+        grid-area: seven;
+    }
+
+    .eight {
+        grid-area: eight;
+        display: none;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-areas: 
+        "one two six"
+        "three three six"
+        "four four six"
+        "five seven six";
+        justify-content: center;
+        align-items: center;
+    }
+
+    .w1 {
+        grid-area: w1;
+    }
+
+    .w2 {
+        grid-area: w2;
+    }
+
+    .w3 {
+        grid-area: w3;
+    }
+
+    .w4 {
+        grid-area: w4;
+        margin-left: 0;
+    }
+
+    .w5 {
+        grid-area: w5;
+    }
+
+    .work-grid {
+        display: grid;
+        grid-template-areas: 
+        "w1 w2"
+        "w3 w4"
+        ". w5";
+        align-items: center;
+    }
+}
+
+@media(min-width: 1440px) {
+    .mainmenu {
+        background-image: url(menu-bcg-desktop.png);
+    }
+
+    .name {
+        grid-area: name;
+        font-size: 150px;
+        text-align: left;
+    }
+
+    .surname {
+        grid-area: surname;
+        font-size: 150px;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .photo {
+        grid-area: photo;
+        margin-top: 160px;
+    }
+
+    h2 {
+        padding-top: 120px;
+    }
+
+    .home-grid {
+        display: grid;
+        grid-template-areas: 
+        "name . photo"
+        "surname surname photo";
+        justify-content: center;
+    }
+
+    .scroll {
+        padding-top: 40px;
+    }
+
+    h4 {
+        text-align: left;
+        font-size: 80px;
+    }
+
+    .aboutme {
+        padding: 0 13em;
+    }
+
+    .am3 {
+        margin-bottom: 250px;
+    }
+
+    .skills-title {
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    .eight {
+        display: table;
+    }
+
+    .three,
+    .four {
+        margin-top: 0;
+    }
+
+    .program {
+        margin-top: 0;
+    }
+
+    .program:hover {
+        background-color:#FFC973;
+        transition: 0.5s ease-in;
+        color: white;
+    }
+
+    .skills-grid {
+        grid-template-areas: 
+        "one two five ."
+        "six seven three three"
+        "six eight four four";
+        grid-column-gap: 40px;
+        grid-row-gap: 38px;
+        justify-content: center;
+        align-items: unset;
+    }
+
+    .work-description {
+        padding: 0 13em;
+    }
+
+    .p1-photo, 
+    .p3, 
+    .p4-photo {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .p1-photo:hover {
+        background-image: url(adastra-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s ease;
+    }
+
+    .p2-photo:hover {
+        background-image: url(swingit-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s ease;
+        background-size: 200%;
+    }
+
+    .p3:hover {
+        background-image: url(face2face-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s ease;
+        background-size: 380%;
+    }
+
+    .p4-photo:hover {
+        background-image: url(video.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s ease;
+        background-size: 300%;
+    }
+
+    .p5-photo:hover {
+        background-image: url(design.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: 0.5s ease;
+    }
+
+    .p4-photo {
+        width: 276px;
+    }
+
+    .p5-photo {
+        margin-bottom: 0;
+        width: 604px;
+        height: 268px;
+    }
+
+    .p5-logo {
+        padding-top: 20%;
+    }
+
+    .p2-photo {
+        margin-bottom: 0;
+    }
+
+    .work-grid {
+        grid-template-areas: 
+        "w1 w2 w3"
+        "w4 w2 w3"
+        "w4 w5 w5";
+        justify-content: center;
+        grid-column-gap: 60px;
+        grid-row-gap: 60px;
+        padding-bottom: 200px;
+    }
+
+    .contact-title {
+        padding-left: 400px;
+        padding-top: 160px;
+        font-size: 90px;
+    }
+
+    .contact-description {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 200px;
+        font-size: 20px;
+    }
+
+    .arrow {
+        width: 100px;
+    }
+
+    .arrow2{
+        padding-bottom: 0px;
+    }
+
+    .backup {
+        font-size: 15px;
+    }
+
+    .footer-flex {
+        display: flex;
+        flex-direction: row;
+        padding-left: 40px;
+    }
+
+    .contact {
+        background-image: url(footer-bcg3.png);
+    }
+
+    .contact-grid {
+        grid-auto-flow: column;
+        padding-left: 200px;
+        grid-gap: 170px;
+        padding-top: 70px;
+    }
+
+    .arrow-flex {
+        display: grid;
+        flex-direction: row;
+        padding-left: 300px;
+    }
+
+    .socials {
+        font-size: 15px;
+    }
+}
+
+
+
+/* burger menu */
+/* this code is taken and edited by me from here: https://www.youtube.com/watch?v=gXkqy0b4M5g&ab_channel=DevEd */
+
 .nav-active{
     transform: translateX(0%);
 }

@@ -12,3 +12,5 @@ const navSlide = () => {
 }
 
 navSlide();
+
+/* this code is taken and edited by me from here: https://www.youtube.com/watch?v=gXkqy0b4M5g&ab_channel=DevEd */
